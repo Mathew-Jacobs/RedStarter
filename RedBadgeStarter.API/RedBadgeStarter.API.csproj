@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="8.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="5.3.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedBadgeStarter.API.DataContract\RedBadgeStarter.API.DataContract.csproj" />
+    <ProjectReference Include="..\RedBadgeStarter.Business.DataContract\RedBadgeStarter.Business.DataContract.csproj" />
+    <ProjectReference Include="..\RedBadgeStarter.Business\RedBadgeStarter.Business.csproj" />
+    <ProjectReference Include="..\RedBadgeStarter.Database.DataContract\RedBadgeStarter.Database.DataContract.csproj" />
+    <ProjectReference Include="..\RedBadgeStarter.Database\RedBadgeStarter.Database.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="SeedData\" />
+  </ItemGroup>
+
+</Project>

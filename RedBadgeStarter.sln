@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedBadgeStarter.API", "RedBadgeStarter.API\RedBadgeStarter.API.csproj", "{2553E59A-7EB4-4B75-8A3F-80A42E2FD226}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedBadgeStarter.API.DataContract", "RedBadgeStarter.API.DataContract\RedBadgeStarter.API.DataContract.csproj", "{4A455726-C87C-46DD-BA69-0904316370C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedBadgeStarter.Business", "RedBadgeStarter.Business\RedBadgeStarter.Business.csproj", "{FC59FB06-4DAA-487C-B85B-B5A92F8EF4F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedBadgeStarter.Business.DataContract", "RedBadgeStarter.Business.DataContract\RedBadgeStarter.Business.DataContract.csproj", "{D08B194A-4036-4CB5-9D3B-4FCE275BAEBA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedBadgeStarter.Database", "RedBadgeStarter.Database\RedBadgeStarter.Database.csproj", "{2E2E1914-E8C9-4C92-BD1A-831195B2EBE8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedBadgeStarter.Database.DataContract", "RedBadgeStarter.Database.DataContract\RedBadgeStarter.Database.DataContract.csproj", "{CABDE3BB-D0DD-458A-8184-39F3CFB5A396}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2553E59A-7EB4-4B75-8A3F-80A42E2FD226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2553E59A-7EB4-4B75-8A3F-80A42E2FD226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2553E59A-7EB4-4B75-8A3F-80A42E2FD226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2553E59A-7EB4-4B75-8A3F-80A42E2FD226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A455726-C87C-46DD-BA69-0904316370C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A455726-C87C-46DD-BA69-0904316370C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A455726-C87C-46DD-BA69-0904316370C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A455726-C87C-46DD-BA69-0904316370C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC59FB06-4DAA-487C-B85B-B5A92F8EF4F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC59FB06-4DAA-487C-B85B-B5A92F8EF4F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC59FB06-4DAA-487C-B85B-B5A92F8EF4F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC59FB06-4DAA-487C-B85B-B5A92F8EF4F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D08B194A-4036-4CB5-9D3B-4FCE275BAEBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D08B194A-4036-4CB5-9D3B-4FCE275BAEBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D08B194A-4036-4CB5-9D3B-4FCE275BAEBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D08B194A-4036-4CB5-9D3B-4FCE275BAEBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E2E1914-E8C9-4C92-BD1A-831195B2EBE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E2E1914-E8C9-4C92-BD1A-831195B2EBE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E2E1914-E8C9-4C92-BD1A-831195B2EBE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E2E1914-E8C9-4C92-BD1A-831195B2EBE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CABDE3BB-D0DD-458A-8184-39F3CFB5A396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CABDE3BB-D0DD-458A-8184-39F3CFB5A396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CABDE3BB-D0DD-458A-8184-39F3CFB5A396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CABDE3BB-D0DD-458A-8184-39F3CFB5A396}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AFAFE32-8521-43A2-9B6A-FCAE51F973A2}
+	EndGlobalSection
+EndGlobal
